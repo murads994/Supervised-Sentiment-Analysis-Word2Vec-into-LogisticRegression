@@ -1,2 +1,2 @@
-# Supervised Sentiment Analysis: Word2Vec as an input into LogisticRegression
+# Supervised Sentiment Analysis: Word2Vec as an input into Logistic Regression
 
