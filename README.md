@@ -10,4 +10,6 @@ Word2vec is a popular algorithm for training word embeddings. It works by analyz
 
 The Word2vec module is available directly in Python from the library "gensim". Notice that there are several parameters you can customize (size, window, min_count, sg). By default, size (defining the output vector dimensions) is set to 100, window to 5, min_count to 5, and sg to 0 (i.e. continuous bag of words). After developing our embeddings, we will use them as input into the downstream model – in this case, logistic regression. After that we will adjust the vector size of the embeddings between [25, 50, 100, 150] and window_size used to create embeddings between [2, 3, 5, 10], and assess how it affects our classifier algorithms performance by plotting Size vs. Accuracy graphs. 
 
-Note that, since the dataset is too large it is not uploaded into this repository.
+Note that, since the dataset is too large it is not uploaded into this repository. However, you can find it on Kaggle through the link below:
+
+https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
